@@ -39,4 +39,10 @@ print(variavel[0:5])
 
 ### Constantes
 
-RADAR_1 = 60
+Valores que não são alterados
+
+### ID - Identidade na memória
+v1 = 'a'
+print(id(v1))
+
+### Flags, is, is not e None
