@@ -70,3 +70,26 @@ for letra in texto:
 
 ### range
 range -> range(start, stop, step)
+
+### listas
+* criar
+lista = [10, 20, 30, 40, 50]
+
+* alterar
+lista[2] = 300
+
+* deletar
+del lista[2]
+
+* adicionar
+lista.append(60)
+
+* remove o ultimo item da lista
+lista.pop()
+
+* insert - adiciona um item no indice escolhido
+* clear - limpa a lista
+* extend - estende a lista
+
+### tuplas -> imutável
+tupla = (10, 20, 30, 40, 50)
