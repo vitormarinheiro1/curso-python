@@ -46,3 +46,27 @@ v1 = 'a'
 print(id(v1))
 
 ### Flags, is, is not e None
+variavel = None
+print(variavel is None) -> True
+
+### While -> usado quando não sei a quantidade de repetições
+
+while contador < 10:
+    if contador == 5:
+    continue
+
+continue (não mostrar algo)
+
+### for in
+
+Iteravel -> str, range, etc
+Iterado -> quem sabe entregar um valor por vez
+next - me entregue o próximo valor
+iter -> me entregue seu iterador
+
+texto = 'Python'
+for letra in texto:
+    print(letra)
+
+### range
+range -> range(start, stop, step)
