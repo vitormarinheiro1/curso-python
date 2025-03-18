@@ -1,4 +1,4 @@
-### Modos:
+# Modos:
 r (leitura), w (escrita), x (para criação)
 a (escreve ao final), b (binário)
 t (modo texto), + (leitura e escrita)
