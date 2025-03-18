@@ -108,3 +108,8 @@ strip -> deixa sem espaço no meio e no fim
 rstrip -> deixa sem espaço na direita
 lstrip -> deixa sem espaço na esquerda
 join -> une uma string
+exemplo -> frases = '-'.join('abc')
+
+### Operação ternária
+<valor> of <condicao> else <outro valor>
+variavel = 'Valor' if True else 'Outro valor'
