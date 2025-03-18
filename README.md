@@ -93,3 +93,18 @@ lista.pop()
 
 ### tuplas -> imutável
 tupla = (10, 20, 30, 40, 50)
+
+### enumerate - enumera iteráveis (índices)
+lista = [10, 20, 30, 40]
+lista_enumerada = enumerate(lista)
+
+### decimais + ponto flutuante
+print(round(f'{numero:.2f}))
+print(round(numero, 2))
+
+### split, joins, strip
+split -> faz uma lista com cada palavra
+strip -> deixa sem espaço no meio e no fim
+rstrip -> deixa sem espaço na direita
+lstrip -> deixa sem espaço na esquerda
+join -> une uma string
