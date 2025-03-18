@@ -45,3 +45,47 @@ pessoa = {
 print(list(pessoa.keys()))
 
 ### Set
+- Não permite valores duplicados
+- Não aceitam valores mutáveis
+- Não garante ordem
+- Não tem index
+- são iteráveis
+
+s1 = set('Vitor')
+s1 = {'Vitor', 1, 2, 3}
+
+print(s1)
+
+Métodos úteis:
+add, update, clear, discard
+
+Operadores úteis
+união | união (union) - Une
+intersecção & (intersection) - Itens presentes em ambos
+diferença - Itens presentes apenas no set da esquerda
+diferença simétrica ^ - Itens que não estão em ambos
+
+### Lambda
+- Função anônima
+
+lista = [
+    {'nome': 'Luiz', 'sobrenome': 'miranda'},
+    {'nome': 'Maria', 'sobrenome': 'Oliveira'},
+    {'nome': 'Daniel', 'sobrenome': 'Silva'},
+    {'nome': 'Eduardo', 'sobrenome': 'Moreira'},
+    {'nome': 'Aline', 'sobrenome': 'Souza'},
+]
+
+l1 = sorted(lista, key=lambda item: item['nome'])
+
+### Empacotamento e desempacotamento de dicionários
+kwargs - keyword arguments (argumentos nomeados)
+
+def mostrar_argumentos_nomeados(*args, **kwargs):
+    for chave, valor in kwargs.items():
+    print(chave, valor)
+
+mostrar_argumentos_nomeados(nome='Joana', qlq=123)
+
+### List Comprehension
+lista = [numero for numero in range(10)]

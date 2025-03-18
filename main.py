@@ -1,7 +1,2 @@
-pessoa = {
-    'nome': 'Vitor Rodrigues',
-    'sobrenome': 'Marinheiro',
-    'idade': 900,
-}
-
-print(list(pessoa.keys()))
+lista = [numero*2 for numero in range(10)]
+print(lista)
