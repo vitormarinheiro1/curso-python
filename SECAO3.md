@@ -68,3 +68,6 @@ São funções que existem dentro da sua classe.
 
 # @property(getter)
 é um método, mas se comporta como um atributo
+
+# SETTERS
+* É obrigatório ter uma @property para criar um "@setter", @cor.setter
