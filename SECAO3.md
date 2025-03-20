@@ -34,7 +34,7 @@ import os
 
 os.rename(caminho_arquivo, 'novo_nome.txt')
 
-# SALVANDO DADOS EM JSON
+# SALVANDO DADOS EM JSON - JSON DUMP
 import json
 
 pessoa = {
@@ -53,9 +53,18 @@ pessoa = {
 with open('aula.json', 'w') as arquivo:
     json.dump(pessoa, arquivo)
 
-# CARREGAR ARQUIVO JSON
+# CARREGAR ARQUIVO JSON - JSON LOAD
 import json
 
 with open('aula.json', 'r', encoding='utf-8') as arquivo:
     pessoa = json.load(arquivo)
     print(pessoa)
+
+# @CLASSMETHOD - cls
+Ao invés de receber a instância no primeiro parâmetro, receberemos a própria classe.
+
+# @STATICMETHOD - (Xself, Xcls)
+São funções que existem dentro da sua classe.
+
+# @property(getter)
+é um método, mas se comporta como um atributo

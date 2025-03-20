@@ -1,5 +1,13 @@
-import json
+class Caneta:
+    def __init__(self, cor):
+        self.cor_tinta = cor
 
-with open('aula.json', 'r', encoding='utf-8') as arquivo:
-    pessoa = json.load(arquivo)
-    print(pessoa)
+    @property
+    def get_cor(self):
+        return self.cor_tinta
+
+
+caneta = Caneta("Azul")
+
+
+print(caneta.get_cor)
