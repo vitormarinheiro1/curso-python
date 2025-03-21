@@ -71,3 +71,10 @@ São funções que existem dentro da sua classe.
 
 # SETTERS
 * É obrigatório ter uma @property para criar um "@setter", @cor.setter
+@property
+def cor(self):
+    return self._cor
+
+@cor.setter
+def cor(self, valor):
+    self._cor = valor

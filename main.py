@@ -6,7 +6,7 @@ class Caneta:
     @property
     def cor(self):
         return self._cor
-    
+
     @cor.setter
     def cor(self, valor):
         self._cor = valor
@@ -18,7 +18,6 @@ class Caneta:
     @cor_tampa.setter
     def cor_tampa(self, valor):
         self._cor_tampa = valor
-
 
 
 caneta = Caneta("Azul")
